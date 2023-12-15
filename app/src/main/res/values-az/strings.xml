@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> Talış Lüğəti </string>
+    <string name="close_app"> Tətbiq bağlansın? </string>
+    <string name="close"> Bağla </string>
+    <string name="cancel"> Ləğv </string>
+    <string name="s1"> Mətn daxil edin </string>
+    <string name="text_copied"> Mətn kopiyalanmışdır </string>
+    <string name="s2"> Dil seçin: </string>
+    <string name="s3"> Quraşdırma </string>
+    <string name="s4"> Məlumat bazası müvəffəqiyyətlə yenilədi</string>
+    <string name="s5"> Vəziyyət: </string>
+    <string name="s6"> Abunəliyin bitmə müddəti: </string>
+    <string name="s7"> aktiv deyil </string>
+    <string name="s8"> aktiv </string>
+    <string name="s9">Xeyriyyəçilik</string>
+    <string name="s10">«Talysh Dictionary (by F. Aboszoda)» mobil əlavəsi «TOLISHNOMA» elmi layihənin pulsuz məhsuludur. Bu lüğətin keyfiyyətini lazımi səviyyədə olmasını maddi cəhətdən dəstəkləmək və digər elmi məhsulların yaradılmasına kömək etmək istəyən hər kəsə tolyshnoma@gmail.com elektron poçtuna müraciət etmesi xahiş olunur.</string>
+    <string name="s11"> Qiymət: </string>
+    <string name="s12"> Abunə olun </string>
+    <string name="s17"> Əlaqə </string>
+    <string name="s18"> Əlifba </string>
+    <string name="desc"><![CDATA[
+    <p><strong>\"Talysh Dictionary (by F. Aboszoda)\" </strong>mobil tətbiq etmə talış dilindən birbaşa 4 dilə : rus, azərbaycan (türk), ingilis və fars dillərinə  tərcümə  edilmiş elektron lüğətlər təklif edir</p>
+<p>Talışlar Kaspi dənizi sahilinin cənub-qərbində - İranla Azərbaycanın sərhədində yaşayırlar. Talış dili aşağıdakı kimi təsnif edilir: <u>Hind-Avropa dil ailəsi</u> - <u>Ariyan qolu</u> - <u>İran qrupu</u> - <u>Şimal-qərb alt qrupu</u> - <u>Kaspi dilləri</u> - <u>Talış dili</u>. Talış dilinin transformasiya şəklində meydana gəlmə ardıcılliğı: <u>Aryan dili</u> - <u>Avesta dili</u> - <u>Midiya dili</u> - <u>Parfiya pəhləvisi</u><u> (Azəri dialekti)</u> - <u>Talış dili</u>. İranın şimal-qərbindəki bir çox bölgələrdə yaşayan tati əhalisi talışların etnoqrafik qrupudur və yaxınlıqdakı talış ləhcələrinin birinə bənzər ləhcələrdə danışırlar.</p>
+<p>Bütün 4 lüğətin müəllifi alim (filosof politoloq, filoloq), jurnalist və ictimai-siyasi xadim Fəxrəddin Aboszodədir (Abbasov).  Bəzi lüğətlər bir neçə dəfə yeniləşdirilərək nəşr olunmuşdur. Hazırkı mobil tətbiq etmədə aşağıdakı lüğətlər təqdim olunur: <u>Rusca</u><u>-</u><u>Tal</u><u>ış</u><u>ca</u> <u>l</u><u>üğə</u><u>t</u> (60 000 söz; Münhen, 2012), <u>T</u><u>ü</u><u>rkc</u><u>ə-</u><u>Tal</u><u>ış</u><u>ca</u> <u>l</u><u>üğə</u><u>t</u> (55 000 söz, Bakı, 2015), <u>İ</u><u>ngilisc</u><u>ə-</u><u>Tal</u><u>ış</u><u>ca</u> <u>l</u><u>üğə</u><u>t</u> (250 000 söz, Münhen, 2012), <u>Farsca</u><u>-</u><u>Tal</u><u>ış</u><u>ca</u> <u>l</u><u>üğə</u><u>t</u> (100,000 söz, əlyazma).</p>
+<p>\"Talysh Dictionary (by F. Aboszoda)\" mobil tətbiq etmə <u>Talış gənclər ittifaqının</u> (Moskva şəh., Russiya) <strong>\"TOLYSHNOMA\"</strong> elmi-maarifləndirici layihəsinin məhsuludur və <u>Talış Milli Akademiyasının</u> (Minsk şəh., Belarus) dəstəyi ilə yaradılıb. Mobil tətbiqetmə <u>Talış Milli Hərəkatının </u>(Haaqa şəh., Niderland) maliyyə dəstəyi ilə hazırlanmışdır.</p>
+]]>
+        </string>
+
+    <string name="s13"> Giriş məhduddur </string>
+    <string name="s14"> Tərcümə əldə etmək üçün abunə olmalısınız.
+        Abunə olmaqla, bütün lüğətlərdən istifadə edə bilərsiniz: Russian-Talysh,
+        Türk-Talış,
+        Anglo-talış, fars-talış </string>
+    <string name="s15"> Abunəliklərə gedin </string>
+    <string name="s16"> Ləğv et </string>
+
+
+    <string name="translator"> Tərcüməçi </string>
+    <string name="about_app"> Tətbiq haqqında </string>
+
+
+</resources>

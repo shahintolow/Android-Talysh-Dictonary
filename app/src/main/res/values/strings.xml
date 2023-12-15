@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Talysh Dictionary</string>
+    <string name="close_app">Close app?</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="s1">Enter text</string>
+    <string name="text_copied">Text copied</string>
+    <string name="s2">Select language:</string>
+    <string name="s3">Setting</string>
+    <string name="s4">Data base success updated</string>
+    <string name="s5">Status:</string>
+    <string name="s6">Subscription end time:</string>
+    <string name="s7">not active</string>
+    <string name="s8">active</string>
+    <string name="s9">Charity</string>
+    <string name="s10">The electronic "Talysh Dictionary (by F. Aboszoda)" is a free product of the scientific project "TOLYSHNOMA".  Anyone who wants to financially support the quality of this dictionary at the proper level, or to help to create other scientific products, please write to e-mail address:  tolyshnoma@gmail.com</string>
+    <string name="s11">Price: </string>
+    <string name="s12">Subscribe</string>
+    <string name="desc"><![CDATA[
+      <p><strong>\"Talyshi Dictionary (by F. Aboszoda)\"</strong> application offers electronic dictionary from the Talyshi language to 4 different languages: Russian, Turkic (Azerbaijani), English and Persian.</p>
+<p>The Talysh people live in the south-west of the Caspian Sea on the Iran-Azerbaijan border. Talyshi language is classified as follows: <u>Indo-European language family</u> - <u>Aryan branch</u> - <u>Iranian group</u> - <u>Northwestern subgroup</u> - <u>Caspian languages</u> - <u>Talyshi</u>. Talyshi language emerged in a way of consistent transformations of: <u>Aryan</u> - <u>Avestan</u> - <u>Median</u> - <u>Parthian Pahlavi (Azari dialect)</u> - <u>Talyshi</u>. Also, there Tati population on north-west of Iran that considered to be an ethnographic group of Talysh people speaking one of nearby Talyshi language dialects.</p>
+<p>The author of all 4 dictionaries is a scholar (philosopher, political scientist, philologist), journalist, public and political figure Fakhraddin Aboszoda (Abbasov). Some of the dictionaries were republished in an updated version several times. In this application you will find: <u>Russian-Talyshi dictionary</u> (82,000 words; Baku, 2006, 2008), <u>Turkic-Talyshi dictionary</u> (55,000 words; Baku, 2015), <u>English-Talyshi dictionary</u> (250,000 words; Munich, 2012), <u>Persian-Talyshi dictionary</u> (100,000 words, not published).</p>
+<p>The \"Talyshi Dictionary (by F. Aboszoda)\" application was created as a part of scientific educational project <strong>\"TOLYSHNOMA\"</strong>, created by the <u>Union of Talysh Youth</u> (Moscow, Russia) with the assistance of The
+<u>National Academy of Talysh</u> (Minsk, Belarus). The application was created with the support financial of the <u>Talysh National Movement</u> (Hague, Netherlands).</p>
+    ]]>
+    </string>
+
+    <string name="s13">Access limited</string>
+    <string name="s14">To get access to translations, you need to subscribe.
+        By subscribing, you can use all dictionaries: Russian-Talysh,
+        Turkic-Talysh,
+        Anglo-Talysh, Perso-Talysh</string>
+    <string name="s15"> Go to Subscriptions </string>
+    <string name="s16"> Cancel </string>
+    <string name="s17">Contact</string>
+    <string name="s18">Alphabet</string>
+
+    <string-array name="language">
+        <item>Russian</item>
+        <item>Talysh</item>
+        <item>Azerbaijani</item>
+        <item>English</item>
+        <item>Persian</item>
+    </string-array>
+
+    <string-array name="language_app">
+        <item>English</item>
+        <item>فارسی</item>
+        <item>Azərbaycan dili</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string name="translator">Translator</string>
+    <string name="about_app">About application</string>
+
+
+    <string-array name="alphabet_fa">
+        <item> A - а, آ  - (a) </item>
+        <item> Б - b, ب -   (b) </item>
+        <item> В - v, و  -   (v) </item>
+        <item> Г - q, گ -  (g) </item>
+        <item> Ғ - ğ, ق  -(gh) </item>
+        <item> Д - d, د   -(d) </item>
+        <item> Е - e, إ    -(e) </item>
+        <item> Ә - ә, ا,ع  -  ( ) </item>
+        <item> Ж - j, ژ       -(zh) </item>
+        <item> З - z, ز        -(z) </item>
+        <item> И - i, ی        -(i) </item>
+        <item> Ы - ı, ع        -(y) </item>
+        <item> J - y, ی     -  (y) </item>
+        <item> К - k, ک   -   (k) </item>
+        <item> Л - l, ل     -   (l) </item>
+        <item> М - m, م      - (m) </item>
+        <item> Н - n, ن     -  (n) </item>
+        <item> О - o, و     -  (o) </item>
+        <item> П - p, پ    -  (p) </item>
+        <item> Р - r, ر      -  (r) </item>
+        <item> С - s, س    -  (s) </item>
+        <item> Т - t, ت     -  (t) </item>
+        <item> У - u, و      - (u) </item>
+        <item> Ф - f, ف     - (f) </item>
+        <item> Х - x, خ     - (kh) </item>
+        <item> Һ - h, ه    -   (h) </item>
+        <item> Ч - ç, چ   -   (ch) </item>
+        <item> Ҹ - с, ج    - (dzh) </item>
+        <item> Ш - ş, ش    - (sh) </item>
+    </string-array>
+</resources>

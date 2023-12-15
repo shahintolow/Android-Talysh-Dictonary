@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "404707832811",
+    "firebase_url": "https://qeert-d843f.firebaseio.com",
+    "project_id": "qeert-d843f",
+    "storage_bucket": "qeert-d843f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404707832811:android:c3e9ac3a9574f5654edfae",
+        "android_client_info": {
+          "package_name": "com.com.talyshdictionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404707832811-e7265vdtnrng1rnrl02r47sptre3kql7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.com.talyshdictionary",
+            "certificate_hash": "c53dfb26b8054a2120aefd82abc31b308f92f0d5"
+          }
+        },
+        {
+          "client_id": "404707832811-ep0ncc0bkoc9vtlcuq8jbnrjqs4estmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3cpV_1B3Vo-ocl6ckkFDuYhgAUVG0idA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404707832811-ep0ncc0bkoc9vtlcuq8jbnrjqs4estmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+[versions]
+agp = "8.2.0"
+androidx-appcompat = "1.6.1"
+androidx-constraintlayout = "2.1.4"
+androidx-core-ktx = "1.12.0"
+androidx-espresso-core = "3.5.1"
+androidx-junit = "1.1.5"
+billing-ktx = "6.1.0"
+firebase-firestore-ktx = "24.10.0"
+flexbox = "3.0.0"
+google-material = "1.10.0"
+junit-junit = "4.13.2"
+kotlin = "1.9.10"
+core-ktx = "1.12.0"
+multidex = "2.0.1"
+google-service-version = "4.4.0"
+firebase-version-bom = "32.1.0"
+play-services-auth = "20.7.0"
+room-runtime = "2.6.1"
+kps-room-ver="2.5.1"
+room-compiler = "2.6.1"
+kapt-v = "1.9.10-1.0.13"
+
+[libraries]
+androidx-appcompat-v110 = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+androidx-constraintlayout-v113 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx-constraintlayout" }
+androidx-core-ktx-v131 = { module = "androidx.core:core-ktx", version.ref = "androidx-core-ktx" }
+androidx-espresso-core-v320 = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx-espresso-core" }
+androidx-junit-v111 = { module = "androidx.test.ext:junit", version.ref = "androidx-junit" }
+androidx-multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-runtime" }
+billing-ktx = { module = "com.android.billingclient:billing-ktx", version.ref = "billing-ktx" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+firebase-firestore-ktx-v2150 = { module = "com.google.firebase:firebase-firestore-ktx", version.ref = "firebase-firestore-ktx" }
+flexbox = { module = "com.google.android.flexbox:flexbox", version.ref = "flexbox" }
+junit-v412 = { module = "junit:junit", version.ref = "junit-junit" }
+material-v110 = { module = "com.google.android.material:material", version.ref = "google-material" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "play-services-auth" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room-compiler" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room-compiler" }
+androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "room-compiler" }
+#androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-compiler" }
+androidx-room = { group = "androidx.room", name = "room-compiler", version.ref = "kps-room-ver" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+com-google-service = { id = "com.google.gms.google-services", version.ref = "google-service-version" }
+com-crash = { id = "com.google.firebase.crashlytics", version = "2.9.9" }
+com-google-devtools-ksp = {id = "com.google.devtools.ksp", version.ref = "kapt-v" }
