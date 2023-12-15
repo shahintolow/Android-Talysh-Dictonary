@@ -25,6 +25,7 @@
     ]]>
     </string>
 
+    <string name="notification_title" translatable="false">Tylash Time</string>
     <string name="s13">Access limited</string>
     <string name="s14">To get access to translations, you need to subscribe.
         By subscribing, you can use all dictionaries: Russian-Talysh,

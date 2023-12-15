@@ -1,6 +1,9 @@
 package com.com.talyshdictionary.activities
 
 import android.app.Activity
+import android.app.AlarmManager
+import android.app.PendingIntent
+import android.content.Intent
 import android.os.Bundle
 import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.widget.Toolbar
@@ -15,6 +18,9 @@ import com.com.talyshdictionary.models.TranslateType
 import com.google.android.material.navigation.NavigationView
 import com.com.talyshdictionary.databinding.ToolbarBinding
 import com.com.talyshdictionary.databinding.ActivityMainBinding
+import com.com.talyshdictionary.managers.NotificationReceiver
+import java.util.Calendar
+import java.util.Date
 
 class MainActivity : BaseActivity() {
 
@@ -54,11 +60,33 @@ class MainActivity : BaseActivity() {
         loadFragment(FragmentTranslate())
         setupDrawerContent()
         setToolbar()
+        myAlarm()
         FirebaseManager().getNewWord(TranslateType.EN, this)
         FirebaseManager().getNewWord(TranslateType.FA, this)
         FirebaseManager().getNewWord(TranslateType.AZ, this)
         FirebaseManager().getNewWord(TranslateType.RU, this)
     }
+
+    private fun myAlarm() {
+
+    val calendar = Calendar.getInstance();
+    calendar.set(Calendar.HOUR_OF_DAY, 0)
+    calendar.set(Calendar.MINUTE, 3)
+    calendar.set(Calendar.SECOND, 0)
+
+    if (calendar.time < Date())
+        calendar.add(Calendar.DAY_OF_MONTH, 1)
+
+    val intent =  Intent(applicationContext, NotificationReceiver::class.java)
+    val pendingIntent = PendingIntent.getBroadcast(applicationContext , 0, intent, PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
+
+    val alarmManager =  getSystemService(ALARM_SERVICE) as AlarmManager
+
+    if (alarmManager != null) {
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.timeInMillis, AlarmManager.INTERVAL_FIFTEEN_MINUTES, pendingIntent);
+  }
+}
+
 
     private fun setToolbar() {
         setSupportActionBar(toolbar)
