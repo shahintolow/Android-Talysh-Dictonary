@@ -16,7 +16,6 @@ class FragmentAlphabet : BaseFragment() {
 
       private var _binding : FragmentAlphabet2Binding? = null
       private val binding get() = _binding!!
-
       private var bindItem : ItemAlphabetBinding? = null
 
     override fun onCreateView(

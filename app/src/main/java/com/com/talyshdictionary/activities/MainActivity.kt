@@ -43,7 +43,9 @@ class MainActivity : BaseActivity() {
         _binding = ToolbarBinding.inflate(layoutInflater)
          val rootToolbar = _binding!!.root
 
-        toolbar = rootToolbar.findViewById<Toolbar>(R.id.toolbar)
+         toolbar = drawer_layout.findViewById<Toolbar>(R.id.toolbar)
+
+        //toolbar = rootToolbar.findViewById(R.id.toolbar)
 
 
         DBRoomManager.init(this)
@@ -60,9 +62,12 @@ class MainActivity : BaseActivity() {
 
     private fun setToolbar() {
         setSupportActionBar(toolbar)
+
         toolbar.setNavigationOnClickListener {
+            println(" toolbar press ")
             drawer_layout.openDrawer(GravityCompat.START, true)
         }
+
     }
 
     private val listener = NavigationView.OnNavigationItemSelectedListener { menuItem ->

@@ -4,13 +4,16 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
 
     <!-- Цвет фона, предпочтительно как в главной теме -->
-    <item android:drawable="@color/red_main"/>
+    <item
+        android:drawable="@color/red_main"/>
 
     <!-- Лого приложения - 144dp версия иконки приложения -->
     <item>
 
         <bitmap
-            android:src="@drawable/ic_ty_big"
+            android:width="60dp"
+            android:height="40dp"
+            android:src="@drawable/talysh1"
             android:gravity="center"/>
 
     </item>

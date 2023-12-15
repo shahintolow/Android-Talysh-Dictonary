@@ -14,7 +14,7 @@ android {
         applicationId = "com.com.talyshdictionary"
         minSdk = 19
         targetSdk = 34
-        versionCode = 11
+        versionCode = 12
         versionName = "1.4"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
